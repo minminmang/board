@@ -32,6 +32,7 @@ public class BoardVO {
 	public void setBno(int bno) {
 		this.bno = bno;
 	}
+	
 	public String getTitle() {
 		return title;
 	}
