@@ -3,4 +3,10 @@
 
 <mapper namespace="com.board.mappers.board">
 
+<!-- 게시물 목록 -->
+<select id="list" resultType="com.board.domain.BoardVO">
+	select bno, content, writer, regDate, viewCnt
+	from board.tbl_board
+</select>
+
 </mapper>

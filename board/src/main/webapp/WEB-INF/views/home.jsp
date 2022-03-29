@@ -8,9 +8,11 @@
 </head>
 <body>
 <h1>
-	Hello world!  222
+	Hello world!  222222211111
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+
+<p><a href="/board/list">게시물 목록</a>
 </body>
 </html>
